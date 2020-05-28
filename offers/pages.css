@@ -24,7 +24,7 @@ h1 {
     margin-bottom: 100px;
     margin: 30px ;
     
-   }
+}
         @media (max-width: 768px) {
             .link li a {
                padding-left:40px ;
