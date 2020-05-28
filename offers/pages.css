@@ -39,6 +39,7 @@ h1 {
 }
 
 @media (max-width: 500px) {
+
         h1 {
             font-size: 16px;
         }
@@ -105,11 +106,59 @@ h2 {
     color: white;
     text-decoration: none;
 }
+    h1 {
+        font-size: 20px;
+    }
+    
+    
+
+ .link  h2 { 
+         padding: 20px;
+         margin-left: 10px ;
+         text-align: center;
+   }
+
+   .link  li a {
+    padding-left: 700px;
+    margin-bottom: 100px;
+    margin: 30px ;
+    
+}
+        @media (max-width: 768px) {
+            .link li a {
+               padding-left:40px ;
+               color: rgb(219, 22, 22); 
+               font-size: 15px;
+            }
+        }
+     
+.link li {
+       background: #fff;
+       border-radius: 50px;
+       
+   }
+
+   
+   @media (max-width: 768px) {
+    .link li {
+       padding-left: 0;   
+    }
+        
+        
+     }
+    
+     body {
+        background-image: linear-gradient(125deg, #2c3e50, #27ae60 , #2980b9, #e74c3c, #8e44ad);
+        background-size: 400%;
+        animation: bganimation 15s infinite;
+    }
+
 
 .c1 {
     background: linear-gradient(to top, red, orange, white);
     box-shadow: 0px 0px 10px 2px red;
 }
+
 
 .c2 {
     background: linear-gradient(to top, purple, blue, pink);
@@ -288,3 +337,27 @@ h2 {
     background: url(img/gcard.jpg) no-repeat center;
     background-size: cover;
 } */
+
+    @media (max-width: 500px) {
+             .link {
+                font-size: 10px;
+            }
+        }
+
+    .home {
+          
+            width: 30px;
+             height: 10px;
+            background: grey;
+            color: white;
+            margin: 50px;
+            padding:10px 40px 10px 10px;      
+            display: inline-block;
+            text-transform: uppercase;
+            border-radius: 5px;
+            border: 2px solid transparent;
+            transition: all 0.5s linear;
+            border: 2px soild green;
+       
+    }
+
