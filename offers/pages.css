@@ -13,28 +13,37 @@ h1 {
     
     
  }
- 
+ .link  h2 { 
+         padding: 20px;
+         margin-left: 10px ;
+         text-align: center;
+   }
 
-ul li  {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
-    transition: 0.4;
-    width: 300px;
-    background: #fff;
-    text-align:  center;
-    font-size: 16px;
-    float: left;
-    margin: 50px;
-    border-radius: 15px;
-    }
-
-
-    @media (max-width: 500px) {
-        ul li {
-            width: 150px;
-            padding: 10% 20%;
-            margin: 50px 0 20px; 
-            height: 30px;
+   .link  li a {
+    padding-left: 700px;
+    margin-bottom: 100px;
+    margin: 30px ;
+    
+   }
+        @media (max-width: 768px) {
+            .link li a {
+               padding-left:40px ;
+               color: rgb(219, 22, 22); 
+               font-size: 15px;
+            }
         }
+     
+.link li {
+       background: #fff;
+       border-radius: 50px;
+       
+   }
+
+   
+   @media (max-width: 768px) {
+    .link li {
+       padding-left: 0;   
+    }
         
         
      }
@@ -57,20 +66,11 @@ ul li  {
         }
     }
 
-    a {
-        width: 50px;
-         height: 30px;
-        background: w ;
-        color: rgb(123, 255, 0);
-        margin: 50px;
-        padding: 20px;
-        display: inline-block;
-        text-transform: uppercase;
-        border-radius: 50px;
-        border: 2px solid transparent;
-        transition: all 0.5s linear;
-        border: 2px soild green;
-    }
+    @media (max-width: 500px) {
+             .link {
+                font-size: 10px;
+            }
+        }
 
     .home {
           
